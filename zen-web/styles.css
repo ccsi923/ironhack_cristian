@@ -1,0 +1,202 @@
+/*Cristian Saavedra*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div#general {
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  width: 1300px;
+  height: 2200px;
+  margin: auto;
+}
+div#header{
+  width: 1260px;
+  height: 200px;
+  padding: 0 10px 20px 10px;
+  margin: 0 20px 30px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+div#design{
+  width: 300px;
+  height: 700px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+div#archives{
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+div#resources{
+  width: 300px;
+  height: 400px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+div#intro{
+  float: right;
+  width: 920px;
+  height: 140px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+div#road{
+  float: right;
+  width: 920px;
+  height: 400px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+div#about{
+  float: right;
+  width: 920px;
+  height: 500px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+div#part{
+  float: right;
+  width: 920px;
+  height: 550px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+div#benefits{
+  float: right;
+  width: 920px;
+  height: 250px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+body {
+  color: #414141; /* Dark gray */
+  background-color: #D3D3D3;    /* Light gray */
+}
+h1, h2, h3, p {
+  background-color: #FFFFFF;
+  color: #545454;
+  padding: 10px 10px;
+  padding-left: 30px
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height:30px;
+}
+p{
+  font-size: 25px;
+}
+a.nounderline:link
+{
+text-decoration:none;
+}
+h2{
+  text-align: left;
+  font-size: 30px;
+}
+a {
+  color: #bf00bf;    /* Light blue */
+  display: inline;
+}
+ul li {
+  position: relative;
+  margin: 10px;
+}
+ul {
+  list-style: none;
+}
+ul li::before{
+  content: '➤';
+  position: relative;
+  color:  #bf00bf;
+  margin-left: 30px;
+  left: -20px;
+
+}
+u{
+  border-bottom: 1px dashed #999;
+  text-decoration: none;
+}
+.linea{
+  border-top-style: dotted;
+  color: #D3D3D3;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+.header {
+  width: 1240px;
+  height: 190px;
+  margin: auto;
+}
+.intro{
+  margin-left:140px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+
+}
+.road{
+  margin-left: 20px;
+  margin-right: 130px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+
+}
+.about{
+  margin-right: 20px;
+  margin-left: 120px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+
+}
+.part{
+  margin-left: 20px;
+  margin-right: 120px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.benefits{
+  margin-right: 20px;
+  margin-left: 120px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.titel1{
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+strong.design{
+  color: #D3D3D3;
+}
+p.design{
+  font-size: 15px;
+  margin-top: -15px;
+  margin-left: 30px;
+}
+.head2{
+  width: 920px;
+  height: 30px;
+}
+.head2-2{
+  width: 300px;
+  height: 30px;
+}
