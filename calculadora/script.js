@@ -14,15 +14,15 @@ function regis() {
             if(equa){
                 try {
                     input.innerHTML = eval(equa); //calculation since string
-  		        }
+  		}
                 catch (e) {
-  		             alert('Incorrect expression');
-  		             input.innerHTML = "";
+  		    alert('Incorrect expression');
+  		    input.innerHTML = "";
                 }
             }
             break;
         default:
-	        input.innerHTML += bttnVal;
+	    input.innerHTML += bttnVal;
             break;
   }
 }
