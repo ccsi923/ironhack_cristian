@@ -29,5 +29,12 @@ function regis() {
 
 for (let i = 0; i < bttn.length; i++) {
     //registering and printing input
-    bttn[i].addEventListener('click', regis);
+    if (bttn[i].addEventListener){
+      bttn[i].addEventListener('click', regis);
+    }
+    else{
+      if (bttn[i].attachEvent){
+        bttn[i].attachEvent('onclick',regis); //Internet Explorer
+    }
+  }
 }
